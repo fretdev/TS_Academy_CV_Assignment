@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: #D3D8DA;
+}
+.container{
+    width: 80%;
+    max-width: 400px;
+    height: 90vh;
+    display: flex;
+    background: #FFFFFF;
+    margin: 30px auto;
+}
+.cv{
+    
+    display: flex;
+    
+}
+.right-section{
+    width: 60%;
+    height: 100%;
+    background: #FFFFFF;
+}
+.left-section{
+    width: 40%;
+    height: 100%;
+    background: #232633;
+}
+/* .intro-overlay{
+    width: 100%;
+    height: 70px;
+    background: #009B9B ;
+} */
