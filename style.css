@@ -93,14 +93,14 @@ a{
     height: 2px;
     width: 80px;
     margin-top: 16px;
-    margin-left: 8px;
+    margin-left: 5px;
 }
 .line2{
     background-color: #009B9B ;
     height: 2px;
     width: 100px;
     margin-top: 6px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 .role{
     font-size: 10px;
@@ -175,7 +175,7 @@ a{
     height: 1px;
     width: 50px;
     margin-top: 16px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 .description2{
     font-size: 12px;
