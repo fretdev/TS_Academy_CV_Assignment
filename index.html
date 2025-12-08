@@ -3,101 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prosper Cv</title>
-    <link rel="stylesheet" href="style.css"><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+    <title>My Curriculum Vitae</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        section{
+            border-bottom: 2px solid black;
+        }
+        a{
+            text-decoration: none;
+        }
+        section:last-of-type{
+            border-bottom: none;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <div class="intro-overlay">
-            <div class="intro-text">
-                <h1>AHMED PROSPER</h1>
-                <h5>SOFTWARE DEVELOPER</h5>
-            </div>
-            <img src="imgs/fretdev.jpg" alt="">
-        </div>
-        <div class="cv">
-            <div class="right-section">
-                <div class="first-right-section-header">
-                    <h5>EXPERIENCE</h5>
-                    <div class="line"></div>
-                </div>
-                <h6 class="role">FRONTEND ENGINEER</h6>
-                <div class="companys">
-                    <h6 class="company-name">GREEN SOLUTIONS</h6><p class="date">2017-2018</p>
-                </div>
-                <p class="description">I Built responsive interfaces and supported feature updates across the product. Improved usability through clean, efficient UI work.</p>
-                <h6 class="role">Key Achievements / Impact:</h6>
-                <ul class="list">
-                    <li>Enhanced page speed with optimized UI elements.</li>
-                    <li>Reduced build time using reusable components.</li>
-                </ul>
-            <!-- second role -->
-                <h6 class="role">BACKEND ENGINEER</h6>
-                <div class="companys">
-                    <h6 class="company-name">WAVE TECH</h6><p class="date">2020-2024</p>
-                </div>
-                <p class="description">I Developed and maintained backend APIs, improved data handling, and supported new feature releases with efficient server-side logic.</p>
-                <h6 class="role">Key Achievements / Impact:</h6>
-                <ul class="list">
-                    <li>Increased API speed with optimized queries.</li>
-                    <li>Improved system reliability with better validation.</li>
-                </ul>
-                <!-- REFERENCE -->
-                  <div class="third-right-section-header">
-                    <h5>REFERENCE</h5>
-                    <div class="line2"></div>
-                </div>
-                <div class="references">
-                    <div class="first-reference">
-                        <h5>ELDER JOE</h5>
-                        <h6>SENIOR ENGINEER</h6>
-                        <p><a href="tel:+2348133179030" class="icon-circle"><i class="fa-solid fa-phone"></i>+2348133179030</p>
-                        <p class="email"><a href="mailto:ahmedibrahimprosper22@gmail.com" class="icon-circle"><i class="fa-solid fa-envelope"></i></a>prosper@gmail.com</p>
-                    </div>
-                    <div class="second-reference">
-                        <h5>SEUN LANLEGE</h5>
-                        <h6>BLOCKCHAIN EXPERT</h6>
-                        <p> <a href="tel:+2348133179030" class="icon-circle"><i class="fa-solid fa-phone"></i>+2348133179030</p>
-                        <p class="email"><a href="mailto:ahmedibrahimprosper22@gmail.com" class="icon-circle"><i class="fa-solid fa-envelope"></i></a>prosper@gmail.com</p>
-                    </div>
-                </div>
-            </div>
-            <div class="left-section">
-                <div class="left-container">
-                    <div class="profile-container">
-                        <h5 class="profile">PROFILE</h5>
-                        <div class="line3"></div>
-                    </div>
-                    <p class="description2">I am  a Software Engineer skilled in building efficient web applications and scalable solutions.</p>
-                </div>
-                <!-- <div class="left-overlay">SKILLS</div> -->
-                <h4 class="large">SKILLS</h4>
-                <h6 class="level">Professional</h6>
-                <ul class="skills-lists">
-                    <li>Python:<span class="stars">★★★</span></li>
-                    <li>JavaScript:<span class="stars">★★★</span></li>
-                    <li>React:<span class="stars">★★★</span></li>
-                    <li>Django:<span class="stars">★★★★</span></li>
-                    <li>DRF:<span class="stars">★★★★★</span></li>
-                </ul>
-                <!-- <div class="second-overlay">LANGUAGES</div> -->
-                <h4 class="large2">LANGUAGES</h4>
-                <ul class="lang-lists">
-                    <li>English</li>
-                    <li>Yoruba</li>
-                    <li>French</li>
-                </ul>
-                <!-- <div class="third-overlay">CONTACTS</div> -->
-                <h4 class="large3">CONTACTS</h4>
-                      <div class="contact-lists">
-                        <p> <a href="tel:+2348133179030" class="icon-circle"><i class="fa-solid fa-phone"></i>+2348133179030</p>
-                        <p><a href="https://wa.me/2348133179030" class="icon-circle" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>+2348133179030</p>
-                        <p class="email"><a href="mailto:ahmedibrahimprosper22@gmail.com" class="icon-circle"><i class="fa-solid fa-envelope"></i></a>prosper@gmail.com</p>
-                      </div>
-            </div>
-        </div>    
+    <div class="cv">
+        <section class="details-section">
+            <h1 class="name">👨‍💻 Ahmed Ibrahim Prosper</h1>
+            <p>Software Developer | Professional Guitarist</p>
+            <p>📍 13,Ifelodun street,agbado ijaiye,lagos</p>
+            <p>✉️ ahmedibrahimprosper22@gmail.com</p>
+            <p>📞 08133179030</p>
+            <a href="https://github.com/fretdev/TS_Academy_CV_Assignment">🗂️ https://github.com/fretdev/TS_Academy_CV_Assignment</a>
+        </section>
+        <section class="professional-summary-section">
+            <h2>Professional Summary</h2>
+            <p>Versatile Software Developer skilled in building responsive websites and robust web applications using HTML, CSS, JavaScript, Python, Django, and DRF. Strong problem solver with a focus on writing clean, efficient code and delivering user-centered solutions. Passionate about creating high-quality digital experiences and continuously improving through learning and innovation.</p>
+        </section>
+        <section class="technical-skills-section">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Front-End: HTML, CSS, JavaScript</li>
+                <li>Back-End: Python, Django, Django REST Framework (DRF)</li>
+                <li>Web Development: Responsive design, RESTful API development, Authentication & Authorization</li>
+                <li>Databases: SQLite, PostgreSQL (optional—add if relevant)</li>
+                <li>Version Control: Git, GitHub</li>
+                <li>Deployment: Basic knowledge of cloud/hosting platforms (e.g., Heroku, Render)</li>
+            </ul>
+            <section class="soft-skills-section">
+                <h2>Soft Skills</h2>
+            <ul>
+                <li>Problem-solving</li>
+                <li>Attention to detail</li>
+                <li>Communication</li>
+                <li>Team collaboration</li>
+                <li>Critical thinking</li>
+                <li>Time management</li>
+            </ul>
+            </section>
+        </section>
+        <section class="work-history-section">
+            <h2>Work Experience</h2>
+            <ol>
+                <li>Frontend engineer at Prosper energies.⚡(2022-2023)</li>
+                <li>Backend engineer at Optimal Healthcare.🍀(2023-2024)</li>
+                <li>Senior developer and tutor at TS Academy.🎓(2025-Present)</li>
+            </ol>
+        </section>
+        <section class="education-section">
+            <h2>Education</h2>
+            <ul>
+                <li>BSc Computer Science — Osun State University(2026)</li>
+                <li>SSCE — Coral Bells college</li>
+                <li>HND — Gateway Polytechnic Saapade</li>
+        </section>
     </div>
 </body>
 </html>
