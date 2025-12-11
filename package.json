@@ -1,0 +1,25 @@
+{
+  "name": "ts_academy_cv_assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fretdev/TS_Academy_CV_Assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/fretdev/TS_Academy_CV_Assignment/issues"
+  },
+  "homepage": "https://github.com/fretdev/TS_Academy_CV_Assignment#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.17",
+    "tailwindcss": "^4.1.17"
+  }
+}
